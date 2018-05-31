@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Lato, sans-serif;
+}
+
+nav {
+    margin: 0px;
+    background: #293f50;
+    color: #648880;
+    height: 60px;
+}
+
+nav ul {
+    padding: 0 0 0 30px;
+    text-transform: uppercase;
+}
+
+nav ul li {
+    padding-right:15px;
+    line-height: 60px;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #648880;
+}
+
+header {
+    background: #293f50;
+    /* height: 760px; */
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+header h3 {
+    /* background: #293f50; */
+    color: #648880;
+    text-transform: uppercase;
+    text-align: right;
+    padding: 15px;
+    font-weight: normal;
+}
+
+header h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 200px;
+    /* font-size: 52px; */
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+header h2 {
+    color: #648880;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+header p {
+    color: #ffffff;
+    font-size: 18px;
+    padding: 7px;
+}
+
+.btn {
+    padding: 22px 32px;
+    color: #ffffff;
+    background: none;
+    margin: 20px 20px 60px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background: #ffffff;
+    ;
+    /* border-color: #293f50;; */
+    cursor: pointer;
+    color: #648880;
+}
+
+main {
+    text-align: center;
+    background-color: #ffffff;
+}
+
+section {
+    display: inline-block;
+}
+
+article {
+    text-align: left;
+    width: 345px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+article h1 {
+    /* padding: 20px 0; */
+    text-align: left;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #648880;
+}
+
+article h2 {
+    padding: 20px 0;
+    text-align: left;
+}
+
+article p {
+    color: #648880;
+    padding: 0 10px 60px 0;
+}
+
+article img {
+    width: 320px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #293f50;
+    height: 20px;
+    padding: 20px;
+}
+
+footer p {
+    margin: 20px 0px 10px 0px;
+    text-align: left;
+    text-transform: lowercase;
+}
+
+footer nav ul {
+    background-color: #293f50;
+    text-align: right;
+    padding-right: 20px;
+    margin-top: -57px;
+}
+
+footer nav ul li {
+    cursor: pointer;
+    text-transform: initial;
+    display: inline-block;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 14px;
+}
