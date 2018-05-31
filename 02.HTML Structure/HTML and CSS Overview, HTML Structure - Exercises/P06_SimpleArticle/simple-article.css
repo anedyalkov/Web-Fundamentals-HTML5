@@ -6,7 +6,7 @@ body {
 article {
     width: 550px;
     border-radius: 15px;
-    /* margin: auto; */
+    margin: auto;
     padding: 25px;
     background-color: #fafafa;
     box-shadow: 10px 11px 35px -14px rgba(0, 0, 0, 0.54);
