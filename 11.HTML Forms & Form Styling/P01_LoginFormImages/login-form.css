@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+body {
+    background: #927057;
+    font-family: 'Oxygen', sans-serif;
+    color: #ffffff;
+}
+
+header {
+    text-align: center;
+    margin-top: 40px;
+}
+
+header img {
+    text-align: center;
+    border: 5px solid #d5c395;
+    width: 10%;
+}
+
+form {
+    text-align: left;
+    background: #d5c395;
+    width: 35%;
+    margin: 0 auto;
+    height: 290px;
+}
+
+h1 {
+    padding-top: 40px;
+    padding-left: 57px;
+}
+
+div img {
+    position: relative;
+    left: 63px;
+    top: 5px;
+}
+
+input {
+    width: 80%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 8px;
+    margin-left: 32px;
+    padding-left: 40px;
+    background: #efe1c4;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    margin-left: 55px;
+    color: white;
+    font-weight: bold;
+    background: #927057;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    color: #d5c395;
+}
+
+main>img {
+    position: relative;
+    left: 752px;
+    top: 27px;
+}
+
+input[type="submit"]:hover {
+    color: #fae7b0;
+    box-shadow: 0px 0px 3px #fff;
+}

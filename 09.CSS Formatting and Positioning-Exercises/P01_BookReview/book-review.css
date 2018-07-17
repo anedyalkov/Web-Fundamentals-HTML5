@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to bottom, #567788 0%, #121f25 100%) no-repeat center center;
+    font-size: 14px;
+    color: #333333;
+}
+
+nav {
+    background-color: #eff4f7;
+    margin: 40px;
+    position: relative;
+    z-index: 5
+}
+
+nav ul {
+    text-align: right;
+    padding: 14px 35px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #a4a8a9;
+}
+
+nav ul li a:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #70e9ff;
+    color: #333;
+    padding-bottom:10px;
+}
+
+.logo {
+    position: absolute;
+    z-index: 0;
+    top: 20px;
+    left: 550px;
+    background: #ea3d51;
+    width: 90px;
+    height: 90px;
+    padding: 20px;
+}
+
+.logo h1.brand {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 10px;
+    margin-top: 72px;
+}
+
+main {
+    background-color: #CBD0D9;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.book-title {
+    position: relative;
+    z-index: 10;
+    color: #121f25;
+    font-size: 54px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.book-genre {
+    position: relative;
+    z-index: 3;
+    bottom: 80px;
+    left: 80px;
+    color: #6dffb8;
+    font-size: 120px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.first-section {
+    position: relative;
+    z-index: 8;
+    text-align: center;
+    color: #ffffff;
+    width: 300px;
+    padding: 40px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, #eb3c53 0%, #e6135c 100%) no-repeat center center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 80px;
+    border-radius: 50%;
+}
+
+.first-section p:first-of-type {
+    font-size: 25px;
+    margin: 10px;
+}
+
+.first-section p:nth-of-type(2)::before {
+    content: ' " ';
+    color: #af213d;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.first-section p:nth-of-type(2)::after {
+    content: ' " ';
+    color: #af213d;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.first-section button {
+    background: none;
+    border: 3px solid #70ecff;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #ffffff;
+    padding: 10px 25px;
+}
+
+.first-section button:hover {
+    background: #70ecff;
+    border-color: #70ecff;
+    color: #348098;
+}
+
+.second-section {
+    position: relative;
+    z-index: 4;
+    top: -250px;
+    background: #ffffff;
+    margin: 50px;
+    padding: 250px 35px 35px 35px;
+}
+
+.second-section h1 {
+    color: #46ee97;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.second-section p {
+    width: 70%;
+}
+
+.second-section button {
+    background: None;
+    border: 3px solid #628291;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #333;
+    padding: 10px 25px;
+}
+
+.second-section button:hover {
+    background: #628291;
+    cursor: pointer;
+    color: #6dffb8;
+}

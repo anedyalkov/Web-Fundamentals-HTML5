@@ -1,0 +1,116 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, Arial, Helvetica, sans-serif, sans-serif;
+    font-size: 14px;
+    padding: 80px 50px;
+}
+
+nav {
+    margin: auto;
+    /**/
+}
+
+nav ul {
+    background-color: #384452;
+}
+
+nav ul li {
+    display: inline-block;
+    color: #8BAEC2;
+    list-style-type: none;
+    padding: 25px;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #8BAEC2;
+}
+
+nav ul li a:before {
+    font-family: FontAwesome, serif;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+nav ul li:first-child a::before {
+    content: "\f002";
+}
+
+nav ul li:nth-child(2) a::before {
+    content: "\f02c";
+}
+
+nav ul li:nth-child(3) a::before {
+    content: "\f041";
+}
+
+nav ul li:nth-child(4) a::before {
+    content: "\f007";
+}
+
+nav ul li:hover {
+    background-color: #3BBC96;
+    cursor: pointer;
+}
+
+nav ul li:hover a {
+    color: #ffffff;
+}
+
+main {
+    margin: auto;
+    /**/
+    background-color: #EEEEEE;
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+}
+
+form {
+    width: 100%;
+}
+
+form label, form .button {
+    display: inline-block;
+    width: 21%;
+    margin: 10px;
+    padding: 10px;
+}
+
+form label span {
+    display: block;
+    color: #374574;
+    font-weight: bold;
+    padding-left: 1px;
+    margin: 10px 0 20px;
+}
+
+form label input {
+    width: 100%;
+    line-height: 20px;
+    border: 1px solid #CDCDCD;
+    padding: 5px;
+}
+
+form .button {
+    text-transform: uppercase;
+    background-color: #384452;
+    color: #CED1CA;
+    border: none;
+    cursor: pointer;
+    vertical-align: top;
+    padding: 10px;
+    margin: 20px;
+}
+
+form .button:hover {
+    background-color: #3BBC96;
+    color: #FFF7E4;
+    cursor: pointer;
+}

@@ -1,0 +1,77 @@
+@media screen and (min-width:731px) and (max-width: 1200px) {
+    #wrapper {
+        width: 100%;
+    }
+    header {
+        background-size: cover;
+    }
+    header, main {
+        width: 90%;
+    }
+    header nav>ul li {
+        width: 20%;
+    }
+    div img {
+        max-width: 100%;
+    }
+    main section {
+        width: 93%;
+        margin-left: 28px;
+    }
+    main aside {
+        width: 95.5%;
+        margin-left: 28px;
+        margin-top: 0px;    
+    }
+    footer p {
+        text-align: center;
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width: 730px) {
+    #wrapper {
+        width: 100%;
+    }
+    header {
+        background-size: cover;
+    }
+    header, main {
+        width: 90%;
+    }
+    header>nav {
+        height: auto;
+    }
+    header nav>ul li {
+        width: 100%;
+        float: none;
+    }
+    div img {
+        max-width: 100%;
+    }
+    main section {
+        width: 93%;
+        margin-left: 28px;
+    }
+    main aside {
+        width: 95.5%;
+        margin-left: 28px;
+        margin-top: 0px;
+    }
+    footer p{
+        text-align: center;
+        margin-left: 0;
+    }
+    main section>div>div {
+        float: none;
+        background: #BACD8B;
+        display: block;
+    }
+    main section>div {
+        height: auto;
+        text-align: center;
+    }
+    main>section>div>article>p {
+        text-align: left;
+    }
+}

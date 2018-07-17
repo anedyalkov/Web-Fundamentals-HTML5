@@ -1,0 +1,76 @@
+@media screen and (min-width:466px) and (max-width: 979px) {
+    .zerogrid {
+        width: 100%;
+        position: unset;
+    }
+    header .wrap-header {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 130px;
+    }
+    header #logo {
+        position: unset;
+        margin: 0 auto;
+    }
+    nav .wrap-nav {
+        position: unset;
+    }
+    .menu ul {
+        text-align: center;
+    }
+    .menu ul li {
+        position: unset;
+        float: none;
+        display: inline-block;
+    }
+    .zerogrid .col-1-4 {
+        width: 50%;
+        margin-left: 0;
+    }
+    .zerogrid .col-1-3 {
+        width: 100%;
+    }
+    .zerogrid .col-2-3 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .zerogrid {
+        width: 100%;
+        position: unset;
+    }
+    header .wrap-header {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 130px;
+    }
+    header #logo {
+        display: none;
+    }
+    nav .wrap-nav {
+        position: unset;
+    }
+    .menu {
+        display: none;
+    }
+    .minimenu {
+        display: block;
+    }
+    .zerogrid .col-1-4 {
+        width: 100%;
+        margin-left: 0;
+    }
+    header .wrap-header {
+        display: flex;
+        flex-direction: column-reverse;
+        height: unset;
+        margin-bottom: 12em;
+    }
+    .zerogrid .col-1-3 {
+        width: 100%;
+    }
+    .zerogrid .col-2-3 {
+        width: 100%;
+    }
+}

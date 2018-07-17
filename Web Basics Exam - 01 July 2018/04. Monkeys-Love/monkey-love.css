@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    color: #D56C4C;
+    margin: 0 auto;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 15px;
+    font-weight: 900;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+header section {
+    background: url("img/header.png") 0 -300px;
+    background-size: cover;
+    height: 440px;
+    color: white;
+}
+
+s header section h1 {
+    padding-top: 60px;
+}
+
+header section p {
+    width: 45%;
+    margin: 0 auto;
+    padding-top: 64px;
+}
+
+#first-section {
+    background: #F05F40;
+    height: 350px;
+    color: white;
+    text-align: center;
+}
+
+#first-section h1 {
+    margin: 0;
+    padding-top: 40px;
+}
+
+body>header>section>h1 {
+    padding-top: 75px;
+}
+
+#first-section p {
+    width: 48%;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+}
+
+#first-section button {
+    padding: 13px 20px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background: #F8F9FB;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 33px;
+}
+
+#second-section {
+    text-align: center;
+}
+
+#second-section article {
+    display: inline-block;
+    margin-top: 45px;
+    width: 15%;
+    padding: 25px;
+    vertical-align: top;
+}
+
+#second-section article i {
+    font-size: 44px;
+    color: #F05F40;
+}
+
+#second-section>h1 {
+    padding-top: 41px;
+    font-weight: 100;
+}

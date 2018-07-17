@@ -1,0 +1,77 @@
+@media screen and (min-width:640px) and (max-width: 980px) {
+    body #wrapper {
+        width: 100%;
+        flex-flow: column wrap;
+    }
+    body #wrapper>header nav ul {
+        flex-flow: column;
+    }
+    body #wrapper>header nav ul li {
+        width: 90%;
+        margin: auto;
+        margin-top: 25px;
+    }
+    body #wrapper>header h1 a {
+        margin: auto;
+        flex-flow: column;
+    }
+    body #wrapper>header h1 a img {
+        margin: auto;
+    }
+    body #wrapper>header h1 a span {
+        padding-top: unset;
+        padding-right: unset;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+    body #wrapper>section {
+        width: 98%;
+    }
+    body #wrapper>aside {
+        width: 100%;
+        flex-flow: unset;
+    }
+    body #wrapper>aside div {
+        width: 49.7%;
+        padding-bottom: 73px;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    body #wrapper {
+        width: 100%;
+        flex-flow: column wrap;
+    }
+    body #wrapper>header nav ul {
+        flex-flow: column;
+    }
+    body #wrapper>header nav ul li {
+        width: 90%;
+        margin: auto;
+        margin-top: 25px;
+    }
+    body #wrapper>header h1 a {
+        margin: auto;
+        flex-flow: column;
+    }
+    body #wrapper>header h1 a img {
+        margin: auto;
+    }
+    body #wrapper>header h1 a span {
+        padding-top: unset;
+        padding-right: unset;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+    body #wrapper>section {
+        width: 98%;
+    }
+    body #wrapper>aside {
+        width: 100%;
+        flex-flow: column;
+    }
+    body #wrapper>aside div {
+        width: 100%;
+        padding-bottom: 73px;
+    }
+}

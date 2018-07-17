@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Search Job</title>
+    <!--<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">-->
+    <!-- Remove link to test in Judge  -->
+    <link rel="stylesheet" type="text/css" href="search-job.css" />
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">Search Business</a>
+            </li>
+            <li>
+                <a href="#">Business Categories</a>
+            </li>
+            <li>
+                <a href="#">Recent Locations</a>
+            </li>
+            <li>
+                <a href="#">Agents Located</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <form method="post">
+            <label>
+                <span>Business Name</span>
+                <input name="name" type="text" placeholder="enter a name" />
+            </label>
+            <label>
+                <span>Country</span>
+                <input name="country" type="text" placeholder="search by country" />
+            </label>
+            <label>
+                <span>City / State</span>
+                <input name="city-state" type="text" placeholder="search by city or state" />
+            </label>
+            <label>
+                <span>Zip / Postal Code</span>
+                <input name="zip-code" type="text" placeholder="enter a postal code" />
+            </label>
+            <label>
+                <span>Employers</span>
+                <input name="employers" type="number" min="1000" max="5000" placeholder="1000-5000" />
+            </label>
+            <label>
+                <span>Startup Date</span>
+                <input name="date" type="date" />
+            </label>
+            <label>
+                <span>Job Opportunity</span>
+                <input name="job-opportunity" type="text" placeholder="any" />
+            </label>
+
+            <button type="submit" class="button">let's find your job</button>
+        </form>
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+@media screen and (max-width: 639px) {
+    .wrap {
+        width: 100%;
+    }
+    .box {
+        width: 100%;
+    }
+    #header-top-area>h2 {
+        display: none;
+    }
+    #header-middle-area {
+        margin-top: 44px;
+        border-top: 1px solid darkgray;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid darkgray;
+    }
+    #header-bottom-area {
+        display: none;
+    }
+    #product-menu {
+        display: block;
+        float: none;
+        cursor: pointer;
+    }
+    #product-menu:hover .submenu {
+        cursor: pointer;
+        display: block;
+    }
+    footer .wrap {
+        background-color: #26292d;
+    }
+    footer .box {
+        float: none;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    footer .share>* {
+        display: inline-block;
+        vertical-align: bottom;
+        color: #ffffff;
+    }
+    footer .email-newsletter>span {
+        display: block;
+    }
+}

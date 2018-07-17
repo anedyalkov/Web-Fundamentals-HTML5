@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #FAEBC8;
+}
+
+section {
+    width: 73%;
+    height: 570px;
+    background: white;
+    margin: 110px auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: -1px -1px 16px 5px rgba(188, 145, 125, 0.75);
+}
+
+section article {
+    width: 20%;
+    text-align: center;
+    padding: 37px;
+    margin-top: 30px;
+}
+
+section article img {
+    width: 36%;
+}
+
+section article p {
+    text-align: left
+}
+
+body>section>article:nth-child(2)>p:nth-child(4) {
+    margin-top: 39px;
+}
+
+body>section>article:nth-child(3)>p:nth-child(4) {
+    margin-top:18px;
+}
+
+section article .name {
+    color: #965A50;
+    font-style: italic;
+    font-weight: 700;
+    text-shadow: 17px 17px 2px rgba(150, 150, 150, 1);
+}
